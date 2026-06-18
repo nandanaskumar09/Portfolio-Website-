@@ -5,12 +5,13 @@ window.addEventListener('scroll', () => {
         navbar.style.width = '100%';
         navbar.style.maxWidth = '100%';
         navbar.style.borderRadius = '0px';
-        navbar.style.background = 'rgba(7, 6, 20, 0.85)';
+        navbar.style.background = 'rgba(6, 8, 20, 0.9)';
     } else {
         navbar.style.top = '20px';
         navbar.style.width = 'calc(100% - 40px)';
         navbar.style.maxWidth = '900px';
         navbar.style.borderRadius = '100px';
-        navbar.style.background = 'rgba(16, 15, 36, 0.7)';
+        navbar.style.background = 'rgba(15, 19, 42, 0.7)';
     }
 });
+
