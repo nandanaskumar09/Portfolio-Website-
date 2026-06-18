@@ -1,65 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nandana Portfolio</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nandana S Kumar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for professional typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
-<nav class="navbar">
-<h2>Nandana</h2>
-<button class="menu-btn" onclick="toggleMenu()">☰</button>
-<ul id="menu">
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</nav>
-</header>
 
-<section id="home">
-<h1>Welcome To My Portfolio</h1>
-<p>First Year College Student & Web Development Learner</p>
-</section>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">NSK.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<section id="about">
-<h2>About Me</h2>
-<p>My name is Nandana S Kumar. I am passionate about web development and technology.</p>
-</section>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Nandana S Kumar</span></h1>
+            <p class="subtitle">Aspiring Developer | Tech Enthusiast</p>
+            <p class="tagline">Building clean, functional, and user-centric digital experiences.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
 
-<section id="skills">
-<h2>Skills</h2>
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>GitHub</li>
-<li>Responsive Design</li>
-</ul>
-</section>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="section-line"></div>
+            <p>I am a passionate developer focused on creating clean and efficient solutions. I love turning complex problems into simple, beautiful, and intuitive designs. Currently looking for opportunities to grow and collaborate on impactful projects.</p>
+        </div>
+    </section>
 
-<section id="projects">
-<h2>Projects</h2>
-<ol>
-<li>Portfolio Website</li>
-<li>Responsive Navbar Project</li>
-</ol>
-</section>
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="section-line"></div>
+            <div class="skills-grid">
+                <div class="skill-card">Frontend (HTML, CSS, JS)</div>
+                <div class="skill-card">Version Control (Git & GitHub)</div>
+                <div class="skill-card">Problem Solving</div>
+                <div class="skill-card">UI/UX Design Concepts</div>
+            </div>
+        </div>
+    </section>
 
-<section id="contact">
-<h2>Contact Me</h2>
-<form id="contactForm">
-<input type="text" id="name" placeholder="Enter Name" required>
-<input type="email" id="email" placeholder="Enter Email" required>
-<textarea id="message" placeholder="Enter Message"></textarea>
-<button type="submit">Submit</button>
-</form>
-</section>
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="section-line"></div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>A clean, professional personal portfolio website designed to showcase my skills, projects, and contact information. Built with HTML, CSS, and vanilla JavaScript.</p>
+                    <a href="https://github.com/nandanaskumar09/Portfolio-Website-" class="project-link" target="_blank">View Repository →</a>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <h3>Project Name Two</h3>
+                    <p>A brief, professional description of what this project does and the tech stack used to build it.</p>
+                    <a href="#" class="project-link" target="_blank">View Project →</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<footer><p>© 2026 Nandana S Kumar</p></footer>
-<script src="script.js"></script>
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-dark">
+        <div class="container text-center">
+            <h2 class="text-white">Get In Touch</h2>
+            <div class="section-line"></div>
+            <p class="text-muted">Feel free to reach out for collaborations or just a friendly chat!</p>
+            <a href="mailto:your.email@example.com" class="btn btn-light">Email Me</a>
+            <div class="social-links">
+                <a href="https://github.com/nandanaskumar09/Portfolio-Website-" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/nandana-s-kumar-a63468379?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Nandana S Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
